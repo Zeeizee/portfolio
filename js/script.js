@@ -3,8 +3,6 @@ console.log(li)
 li.forEach(element => {
 
     element.addEventListener('click', e => {
-        e.preventDefault();
-
         li.forEach(element => {
             console.log(element);
             element.classList.remove('actived');
