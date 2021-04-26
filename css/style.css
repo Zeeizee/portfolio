@@ -73,7 +73,7 @@ body{
 }
 /* ....................................... */
 
-.s{
+.video-section{
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -94,7 +94,7 @@ body{
 h1{
     font-size: 2rem;
 }
-.s:before{
+.video-section:before{
     content: '';
     display: block;
      width: 100vw;
@@ -113,7 +113,7 @@ h1{
   
     
 }
-.c{
+.video-overlay{
     background-color: rgba(56, 56, 58, 0.753);
     z-index: 999;
     position: absolute;
@@ -218,25 +218,6 @@ video{
    margin: 0px auto 0px auto;
 
 }
-@media screen and (max-width:500px) {
-    .my-name{ 
-    font-size: 2rem;
-    margin-top: 80px;
-   letter-spacing: 2px;
-    color: var(--light-text);
-    
-
-
-}
-}
-@media screen and (max-width:400px) {
-    .my-name{ 
-    font-size: 2.5rem;
-    margin-top: 80px;
-    
-    color: var(--light-text);
- }
-}
 /* skills section */
 .skills .skillsheader::after
 {
@@ -307,6 +288,7 @@ video{
 }
 .project-description h4{
     color: var(--main-theme);
+    font-weight: 800;
 }
 .project-description small{
     color:var(--light-text);
@@ -315,17 +297,25 @@ video{
 {
   width: 100%;
   height: 200px;
+  border-radius: 3px;
+
 }
 .project-image img{
     width: 100%;
     height: 100%;
+    border-radius: 3px;
 }
-.project-tools i
+.project-tools img
 {
-    font-size: 20px;
+    height: 35px;
+    width: 35px;
     color: var(--main-theme);
-    margin-left: 8px;
+  
+    padding: 3px;
+    
+  
 }
+
 hr{
     background-color: rgba(6, 100, 91, 0.25);
 }
@@ -336,7 +326,17 @@ hr{
 }
 
 .links i{
-    margin-right:10px  ;
+    margin-right:5px  ;
     font-size: 1.5rem;
+    padding: 5px;
+    border: 2px solid #2A2A2C
+
+}
+.links i:hover{
+    margin-right:5px  ;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: var(--main-theme);
+    border: 2px dotted var(--main-theme);
 
 }
