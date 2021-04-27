@@ -433,6 +433,18 @@ hr{
     width: 60%;   
     margin: auto;
 } 
+.navbar ul li a{
+   font-family: var(--font-titilium);
+   color: var(--light-text);
+   font-size: 1rem;
+   padding: 10px 10px;
+    
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    height: 51px;;
+}
 
 }
 
@@ -500,6 +512,19 @@ hr{
     width: 60%;   
     margin: auto;
 } 
+
+.navbar ul li a{
+   font-family: var(--font-titilium);
+   color: var(--light-text);
+   font-size: 0.8rem;
+   padding: 10px 5px;
+    
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    height: 49px;
+}
 
 }
 
@@ -607,4 +632,6 @@ hr{
 } 
 
 }
+
+    
 
