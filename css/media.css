@@ -1,0 +1,440 @@
+
+
+
+
+
+
+
+
+/* 
+
+@media screen and (max-width:992px) {
+
+    .my-name{ 
+    font-size: 4rem;
+    margin-top: 30px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 10px;
+}
+    .Imagination
+{
+    font-size: 1rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 4px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-65%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(1.7);   
+}
+.myinfo{
+
+    width: 70%;   
+    margin: auto;
+}
+    
+}
+@media screen and (max-width:767px) {
+
+
+    .my-name{ 
+    font-size: 2.8rem;
+    margin-top: -5px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 8px;
+}
+    .Imagination
+{
+    font-size: 0.9rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 2px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-70%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(1.7);   
+}
+.myimage{
+    width: 200px;
+    height: 200px;    
+    margin: 60px auto 5px auto;    
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.myinfo{
+
+    width: 90%;   
+    margin: auto;
+}
+    
+}
+@media screen and (max-width:516px) {
+
+
+    .my-name{ 
+    font-size: 2.5rem;
+    margin-top:30px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 8px;
+}
+    .Imagination
+{
+    font-size: 1rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 2px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-73%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(1.9); 
+
+}
+.myimage{
+    width: 160px;
+    height: 160px;    
+    margin: 80px auto 5px auto;    
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.myinfo{
+
+    width: 60%;   
+    margin: auto;
+}
+    
+}
+@media screen and (max-width:466px) {
+
+
+    .my-name{ 
+    font-size: 2rem;
+    margin-top: px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 8px;
+}
+    .Imagination
+{
+    font-size: 0.8rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 2px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-72%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(1.9); 
+
+}
+.myimage{
+    width: 130px;
+    height: 130px;    
+    margin: 60px auto 5px auto;    
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.myinfo{
+
+    width: 60%;   
+    margin: auto;
+}
+    
+}
+
+
+@media screen and (max-width:451px) {
+
+
+    .my-name{ 
+    font-size: 2rem;
+    margin-top: 40px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 8px;
+}
+    .Imagination
+{
+    font-size: 0.8rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 2px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-72%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(1.9); 
+
+}
+.myimage{
+    width: 130px;
+    height: 130px;    
+    margin: 60px auto 5px auto;    
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.myinfo{
+
+    width: 60%;   
+    margin: auto;
+}
+    
+}
+
+@media screen and (max-width:431px) {
+
+
+    .my-name{ 
+    font-size: 2rem;
+    margin-top: 40px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 8px;
+}
+    .Imagination
+{
+    font-size: 0.8rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 2px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-75%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(1.9); 
+
+}
+.myimage{
+    width: 130px;
+    height: 130px;    
+    margin: 60px auto 5px auto;    
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.myinfo{
+
+    width: 60%;   
+    margin: auto;
+}
+    
+}
+
+
+@media screen and (max-width:384px) {
+
+
+    .my-name{ 
+    font-size: 2rem;
+    margin-top: 10px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 4px;
+}
+    .Imagination
+{
+    font-size: 0.6rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 1px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-73%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(1.8); 
+
+}
+.myimage{
+    width: 140px;
+    height: 140px;    
+    margin: 70px auto 5px auto;    
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.myinfo{
+
+    width: 60%;   
+    margin: auto;
+}
+.myinfo p{
+    font-size: 0.8rem;
+}
+    
+}
+
+
+
+
+@media screen and (max-width:377px) {
+
+
+    .my-name{ 
+    font-size: 1.8rem;
+    margin-top: 20px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 4px;
+}
+    .Imagination
+{
+    font-size: 0.6rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 1px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-73%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(1.8); 
+
+}
+.myimage{
+    width: 140px;
+    height: 140px;    
+    margin: 60px auto 5px auto;    
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.myinfo{
+
+    width: 60%;   
+    margin: auto;
+}
+.myinfo p{
+    font-size: 0.8rem;
+}
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:369px) {
+
+
+    .my-name{ 
+    font-size: 1.8rem;
+    margin-top: 5px;
+    font-family: 'Niconne', cursive;
+    color: var(--light-text);
+    letter-spacing: 4px;
+}
+    .Imagination
+{
+    font-size: 0.6rem;
+    font-family: var(--font-titilium);
+    color: var(--light-text);
+    letter-spacing: 1px;
+}
+.video-section:before{
+    content: '';
+    display: block;
+     width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-grey);
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border:2px solid  var(--main-theme);
+    position: absolute;
+    top:-76%;
+    left: 0;
+    z-index:1;   
+    transform: scaleX(2); 
+
+}
+.myimage{
+    width: 140px;
+    height: 140px;    
+    margin: 70px auto 5px auto;    
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.myinfo{
+
+    width: 60%;   
+    margin: auto;
+}
+.myinfo p{
+    font-size: 0.8rem;
+}
+    
+} */
