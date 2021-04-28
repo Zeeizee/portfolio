@@ -450,10 +450,10 @@ text-decoration-color: var(--blue-grey);
     
 }
 .google-info{
-    width: 60%;
+    width: 100%;
     display: flex;
-    
-    padding-left: 30px;
+    background-color: chartreuse;
+   
 
     
 }
