@@ -8,6 +8,9 @@
    /* only for name */
     /* font-family: 'Niconne', cursive; */
 }
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --dark-grey:#525E65;
     --main-theme:#73CCA8;
