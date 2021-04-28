@@ -349,6 +349,13 @@ hr{
 
     
 }
+.form-items{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
 .form-items span{
     color: var(--main-theme);
     font-size: 2rem ;
@@ -366,12 +373,13 @@ text-decoration-color: var(--blue-grey);
 {
     color:rgb(173, 167, 167);
     font-size: 1.3rem;
-    padding: 10px 20px;
+  
     width: 100%;
     border: none;
     border-bottom: 1px solid var(--dark-grey);
     background-color: transparent;
     outline: none;
+    
 }
 .contact-form .btn-submit{
     padding: 2px 6px;
@@ -384,12 +392,13 @@ text-decoration-color: var(--blue-grey);
 }
 .contact-form{
    
-    width: 85%;
-    padding: 10px 10px 10px 0px;
+    width: 100%;    
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+   
+   
 }
 .contact-social-icons{
     display: flex;
@@ -401,7 +410,9 @@ text-decoration-color: var(--blue-grey);
 }
 .s-icons{
     display: flex;
-    width: 60%;    
+    width: 60%;  
+    align-items: center;
+    justify-content: center; 
    
 }
 .s-icons a
@@ -422,7 +433,7 @@ text-decoration-color: var(--blue-grey);
 
    
 }
-.top{
+.top a{
   
     float: right;
     color:white;
@@ -431,9 +442,9 @@ text-decoration-color: var(--blue-grey);
     bottom: 35px;
     right: 25px;
     z-index: 1000;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
-.top:hover
+.top a:hover
 {
     color: var(--main-theme);
     
@@ -441,14 +452,18 @@ text-decoration-color: var(--blue-grey);
 .google-info{
     width: 60%;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    
 }
 .google-info img{
     width:20px;
     height: 20px;
     margin-right: 5px;
 
+}
+.row-flexs{
+  
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -513,14 +528,43 @@ text-decoration-color: var(--blue-grey);
     display: flex;
     align-items: center;
     justify-content: center;
+   
     
+}
+.myform .email{
+
+
 }
 .form-items h2{
     text-align: center;
+    margin: 10px 0px 10px 0px;
 }
 .projectheader{
     font-size: 2rem;
 }
+
+
+.contact-form .email
+{
+    color:rgb(173, 167, 167);
+    font-size: 1rem;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--dark-grey);
+    background-color: transparent;
+    outline: none;
+}
+.contact-form .btn-submit{
+    padding: 2px 6px;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    color: var(--main-theme);
+    border: 2px dotted var(--main-theme);
+}
+
 
 }
 
