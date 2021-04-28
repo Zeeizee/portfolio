@@ -1,5 +1,6 @@
 const li = document.querySelectorAll('.navbar ul li a')
-console.log(li)
+const goTop = document.querySelector('.top');
+
 li.forEach(element => {
 
     element.addEventListener('click', e => {
@@ -16,23 +17,25 @@ li.forEach(element => {
     )
 });
 
+goTop.addEventListener('click', e => {
 
-// const li = document.querySelectorAll('.navbar ul li a')
-// console.log(li)
-// li.forEach(element => {
+    li.forEach(element => {
 
-//     element.addEventListener('click', e => {
-//         e.preventDefault();
+        element.addEventListener('click', e => {
 
-//         li.forEach(element => {
-//             console.log(element);
-//             element.classList.remove('actived');
-//         })
+            li.forEach(element => {
+                console.log(element);
+                element.classList.remove('actived');
+            });
 
-//         e.target.classList.add('actived');
-//         console.log(e.target);
+        });
 
-//     }
 
-//     )
-// });
+    });
+    const getSelected = document.querySelector('.selected');
+    console.log(getSelected);
+    if (!getSelected.classList.contains('actived'))
+        getSelected.classList.add('actived');
+
+
+})
