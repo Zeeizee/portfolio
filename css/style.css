@@ -450,8 +450,11 @@ text-decoration-color: var(--blue-grey);
     
 }
 .google-info{
-    width: 60%;
+    width: 100%;
     display: flex;
+   
+    padding-left: 40px;
+
     
 }
 .google-info img{
@@ -563,6 +566,14 @@ text-decoration-color: var(--blue-grey);
     border: none;
     color: var(--main-theme);
     border: 2px dotted var(--main-theme);
+}
+.google-info{
+    width: 100%;
+    display: flex;
+    
+   padding-left: 40px;
+
+    
 }
 
 
