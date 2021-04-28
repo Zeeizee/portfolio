@@ -367,6 +367,8 @@ text-decoration-color: var(--blue-grey);
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    width: 70%;
+    
     
 }
 .contact-form .email
@@ -452,7 +454,8 @@ text-decoration-color: var(--blue-grey);
 .google-info{
     width: 100%;
     display: flex;
-   
+   justify-content: center;
+   align-items: center;
    
 
     
@@ -460,7 +463,7 @@ text-decoration-color: var(--blue-grey);
 .google-info img{
     width:20px;
     height: 20px;
-    margin-right: 5px;
+    margin-right:5px;
 
 }
 .row-flexs{
@@ -531,6 +534,7 @@ text-decoration-color: var(--blue-grey);
     display: flex;
     align-items: center;
     justify-content: center;
+    
    
     
 }
@@ -567,13 +571,7 @@ text-decoration-color: var(--blue-grey);
     color: var(--main-theme);
     border: 2px dotted var(--main-theme);
 }
-.google-info{
-    width: 60%;
-    display: flex;
-    padding: 0px;
 
-    
-}
 
 
 }
