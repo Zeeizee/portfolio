@@ -655,6 +655,13 @@ text-decoration-color: var(--blue-grey);
    padding: 10px 10px;
     
 }
+.navbar ul li a.actived {
+    color: var(--main-theme);
+    border-bottom: 6px solid var(--main-theme);
+    padding: 10px 10px;
+       
+    
+}
 .navbar{
     margin: 0px;
     padding: 0px;
@@ -742,6 +749,13 @@ text-decoration-color: var(--blue-grey);
    color: var(--light-text);
    font-size: 0.8rem;
    padding: 10px 5px;
+    
+}
+.navbar ul li a.actived {
+    color: var(--main-theme);
+    border-bottom: 6px solid var(--main-theme);
+    padding: 10px 5px;
+       
     
 }
 .navbar{
