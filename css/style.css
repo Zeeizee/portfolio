@@ -190,6 +190,14 @@ video{
     color:var(--main-theme);
     font-size: 1.5rem;  
 } 
+.social-icons a:hover
+
+{
+    
+    
+    color:var(--light-text);
+   
+} 
 .intro{
     background-color:#2A2A2C;
     width: 90%;
@@ -409,6 +417,10 @@ text-decoration-color: var(--blue-grey);
     justify-content: center;
 
 
+}
+.contact-social-icons a:hover{
+    color: var(--light-text);
+    
 }
 .s-icons{
     display: flex;
