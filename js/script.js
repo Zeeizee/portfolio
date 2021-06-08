@@ -1,5 +1,15 @@
 const li = document.querySelectorAll('.navbar ul li a')
 const goTop = document.querySelector('.top');
+const loader=document.querySelector('.loader')
+
+
+setTimeout(()=>{
+    loader.classList.add('d-none')
+},5000)
+
+
+
+console.log("welcome")
 
 li.forEach(element => {
 
@@ -13,7 +23,6 @@ li.forEach(element => {
         console.log(e.target);
 
     }
-
     )
 });
 
