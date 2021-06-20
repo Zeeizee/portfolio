@@ -61,12 +61,15 @@ btnGetInTouch.addEventListener('click',()=>{
 })
 btncancel.addEventListener('click', (e)=>{
     e.preventDefault()
+    form.reset()
     formcontainer.classList.add('d-none')
 })
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     emailsend();
+    form.reset()
+    txtGetInTouch.value="";
     formcontainer.classList.add('d-none')
 })
 
