@@ -70,7 +70,7 @@ form.addEventListener('submit',(e)=>{
     emailsend();
     form.reset()
     txtGetInTouch.value="";
-    formcontainer.classList.add('d-none')
+    
 })
 
 
@@ -78,11 +78,12 @@ const emailsend=()=>{
     Email.send({
         Host : "smtp.gmail.com",
         Username : "zenizee563@gmail.com",
-        Password : "yfuiobtuotzavibt",
+        // Password : "yfuiobtuotzavibt",
+        Password : "nwgtfkmofwsesefj",
         To : txtemail.value.trim(),
         From : "zenizee563@gmail.com",
         Subject : "GET IN TOUCH (ZEENAT PARVEEN)",
-        Body : `Hello ${txtusername.value.trim()}: <br> Thank you for contacting me.I have recieved your email. I will give you response very soon.`
+        Body : `Hello <b>${txtusername.value.trim()}</b>: <br> Thank you for contacting me.I have recieved your email. I will get back to you very soon.`
     }).then(
     ).catch(err=>{
         console.log(err)
@@ -90,13 +91,15 @@ const emailsend=()=>{
     Email.send({
         Host : "smtp.gmail.com",
         Username : "zenizee563@gmail.com",
-        Password : "yfuiobtuotzavibt",
+        // Password : "yfuiobtuotzavibt",
+        Password : "nwgtfkmofwsesefj",
         To : 'zenizee563@gmail.com',
         From : "zenizee563@gmail.com",
         Subject : `GET IN TOUCH ${txtusername.value}`,
-        Body : `Someone trying to connect you through Get In Touch from this Email: ${txtemail.value.trim()} <br><br> ${txtmsg.value.trim()}  `
-    }).then(
-      
+        Body : `${txtusername.value} is trying to connect you through Get In Touch from this Email: ${txtemail.value.trim()} <br><br> ${txtmsg.value.trim()}  `
+    }).then(()=>
+        {formcontainer.classList.add('d-none');
+        alert("Your email has been sent to Zeenat Parveen.Check your gmail account for confirmation");}
     ).catch(err=>{
         console.log(err)
     })
